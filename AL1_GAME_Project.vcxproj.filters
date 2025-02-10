@@ -35,22 +35,16 @@
     <ClCompile Include="C:\KamataEngine\DirectXGame\2d\ImGuiManager.cpp">
       <Filter>KamataEngine</Filter>
     </ClCompile>
-    <ClCompile Include="Scene.cpp">
+    <ClCompile Include="Player.cpp">
       <Filter>KamataEngine</Filter>
     </ClCompile>
-    <ClCompile Include="TitleScene.cpp">
+    <ClCompile Include="Command.cpp">
       <Filter>KamataEngine</Filter>
     </ClCompile>
-    <ClCompile Include="OverScene.cpp">
+    <ClCompile Include="MoveLeftCommand.cpp">
       <Filter>KamataEngine</Filter>
     </ClCompile>
-    <ClCompile Include="PlayScene.cpp">
-      <Filter>KamataEngine</Filter>
-    </ClCompile>
-    <ClCompile Include="SceneManager.cpp">
-      <Filter>KamataEngine</Filter>
-    </ClCompile>
-    <ClCompile Include="ClearScene.cpp">
+    <ClCompile Include="MoveRightCommand.cpp">
       <Filter>KamataEngine</Filter>
     </ClCompile>
   </ItemGroup>
@@ -123,11 +117,9 @@
     <ClInclude Include="C:\KamataEngine\DirectXGame\math\Vector3.h" />
     <ClInclude Include="C:\KamataEngine\DirectXGame\math\Vector4.h" />
     <ClInclude Include="C:\KamataEngine\DirectXGame\2d\ImGuiManager.h" />
-    <ClInclude Include="Scene.h" />
-    <ClInclude Include="TitleScene.h" />
-    <ClInclude Include="OverScene.h" />
-    <ClInclude Include="PlayScene.h" />
-    <ClInclude Include="SceneManager.h" />
-    <ClInclude Include="ClearScene.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Command.h" />
+    <ClInclude Include="MoveLeftCommand.h" />
+    <ClInclude Include="MoveRightCommand.h" />
   </ItemGroup>
 </Project>
